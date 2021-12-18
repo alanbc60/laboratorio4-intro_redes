@@ -57,13 +57,6 @@ def generador(cadena:str,tam:int,semilla:int) -> str :
     
     # #voltear los bits
     # #hacer que e bits se inviertan aleatoriamente
-    # if(e<=tam):
-    #     for i in range(0,e):
-    #         posicion = int(a.integers(1,tam-1))
-    #         if posicion is not pos_invertir:
-    #     
-    #        posicion = pos_invertir.append(posicion)
-    
     e = int(a.integers(3,tam-1))
     for i in range(0,e):
             posicion = int(a.integers(1,tam-1))
@@ -131,8 +124,6 @@ def main():
    print(f"probabilidad de exito : {exitos/100} \nProbabilidad de error: {errores/100}")
    print("Errores: ",errores
    print("Exitos: ",exitos)
-    #sacar la probabilidad
-
 
 
 if __name__ == '__main__':
